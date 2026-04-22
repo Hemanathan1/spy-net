@@ -1,0 +1,496 @@
+{
+  "total": 50,
+  "duration_s": 0.01,
+  "avg_size_bytes": 105.2,
+  "total_bytes": 5260,
+  "protocol_counts": {
+    "UDP": 24,
+    "OTHER": 2,
+    "HTTPS": 20,
+    "ICMP": 2,
+    "ARP": 2
+  },
+  "top_src_ips": {
+    "192.168.1.38": 21,
+    "150.171.22.12": 9,
+    "192.168.1.1": 8,
+    "140.82.112.21": 3,
+    "52.1.162.230": 3,
+    "149.154.170.100": 2,
+    "172.188.155.25": 2
+  },
+  "top_dst_ips": {
+    "192.168.1.38": 21,
+    "150.171.22.12": 9,
+    "192.168.1.255": 6,
+    "149.154.170.100": 5,
+    "140.82.112.21": 2,
+    "52.1.162.230": 2,
+    "224.0.0.251": 1,
+    "172.188.155.25": 1,
+    "224.0.0.252": 1
+  },
+  "top_dst_ports": {
+    "443": 19,
+    "65049": 9,
+    "7121": 6,
+    "61983": 3,
+    "59634": 3,
+    "52148": 2,
+    "50763": 2
+  },
+  "packet_details": [
+    {
+      "protocol": "UDP",
+      "src_ip": "150.171.22.12",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "65049",
+      "size": 690,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "150.171.22.12",
+      "src_port": "65049",
+      "dst_port": "443",
+      "size": 81,
+      "flags": ""
+    },
+    {
+      "protocol": "OTHER",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "224.0.0.251",
+      "src_port": "N/A",
+      "dst_port": "N/A",
+      "size": 46,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "150.171.22.12",
+      "src_port": "65049",
+      "dst_port": "443",
+      "size": 77,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "149.154.170.100",
+      "src_port": "52148",
+      "dst_port": "443",
+      "size": 210,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "150.171.22.12",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "65049",
+      "size": 70,
+      "flags": ""
+    },
+    {
+      "protocol": "ICMP",
+      "src_ip": "192.168.1.1",
+      "dst_ip": "192.168.1.38",
+      "src_port": "N/A",
+      "dst_port": "N/A",
+      "size": 98,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "149.154.170.100",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "52148",
+      "size": 174,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "149.154.170.100",
+      "src_port": "52148",
+      "dst_port": "443",
+      "size": 54,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "140.82.112.21",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "61983",
+      "size": 93,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "150.171.22.12",
+      "src_port": "65049",
+      "dst_port": "443",
+      "size": 77,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "140.82.112.21",
+      "src_port": "61983",
+      "dst_port": "443",
+      "size": 54,
+      "flags": "FIN"
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "150.171.22.12",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "65049",
+      "size": 70,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "150.171.22.12",
+      "src_port": "65049",
+      "dst_port": "443",
+      "size": 77,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "140.82.112.21",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "61983",
+      "size": 78,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "140.82.112.21",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "61983",
+      "size": 54,
+      "flags": "FIN"
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "140.82.112.21",
+      "src_port": "61983",
+      "dst_port": "443",
+      "size": 54,
+      "flags": "RST"
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "150.171.22.12",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "65049",
+      "size": 70,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "150.171.22.12",
+      "src_port": "65049",
+      "dst_port": "443",
+      "size": 77,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "150.171.22.12",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "65049",
+      "size": 70,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "172.188.155.25",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "50763",
+      "size": 113,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "172.188.155.25",
+      "src_port": "50763",
+      "dst_port": "443",
+      "size": 120,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "150.171.22.12",
+      "src_port": "65049",
+      "dst_port": "443",
+      "size": 77,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "172.188.155.25",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "50763",
+      "size": 54,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "150.171.22.12",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "65049",
+      "size": 70,
+      "flags": ""
+    },
+    {
+      "protocol": "ICMP",
+      "src_ip": "192.168.1.1",
+      "dst_ip": "192.168.1.38",
+      "src_port": "N/A",
+      "dst_port": "N/A",
+      "size": 98,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "150.171.22.12",
+      "src_port": "65049",
+      "dst_port": "443",
+      "size": 77,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "150.171.22.12",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "65049",
+      "size": 70,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "150.171.22.12",
+      "src_port": "65049",
+      "dst_port": "443",
+      "size": 77,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "150.171.22.12",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "65049",
+      "size": 70,
+      "flags": ""
+    },
+    {
+      "protocol": "ARP",
+      "src_ip": "N/A",
+      "dst_ip": "N/A",
+      "src_port": "N/A",
+      "dst_port": "N/A",
+      "size": 42,
+      "flags": ""
+    },
+    {
+      "protocol": "ARP",
+      "src_ip": "N/A",
+      "dst_ip": "N/A",
+      "src_port": "N/A",
+      "dst_port": "N/A",
+      "size": 42,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "149.154.170.100",
+      "src_port": "52148",
+      "dst_port": "443",
+      "size": 228,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "149.154.170.100",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "52148",
+      "size": 174,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "149.154.170.100",
+      "src_port": "52148",
+      "dst_port": "443",
+      "size": 54,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "52.1.162.230",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "59634",
+      "size": 116,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "52.1.162.230",
+      "src_port": "59634",
+      "dst_port": "443",
+      "size": 96,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "52.1.162.230",
+      "src_port": "59634",
+      "dst_port": "443",
+      "size": 96,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "52.1.162.230",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "59634",
+      "size": 54,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "52.1.162.230",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "59634",
+      "size": 54,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "150.171.22.12",
+      "src_port": "65049",
+      "dst_port": "443",
+      "size": 77,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.1",
+      "dst_ip": "192.168.1.255",
+      "src_port": "54081",
+      "dst_port": "7121",
+      "size": 130,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.1",
+      "dst_ip": "192.168.1.255",
+      "src_port": "53868",
+      "dst_port": "7121",
+      "size": 131,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.1",
+      "dst_ip": "192.168.1.255",
+      "src_port": "60549",
+      "dst_port": "7121",
+      "size": 130,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.1",
+      "dst_ip": "192.168.1.255",
+      "src_port": "47392",
+      "dst_port": "7121",
+      "size": 131,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.1",
+      "dst_ip": "192.168.1.255",
+      "src_port": "51995",
+      "dst_port": "7121",
+      "size": 130,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "192.168.1.1",
+      "dst_ip": "192.168.1.255",
+      "src_port": "45727",
+      "dst_port": "7121",
+      "size": 131,
+      "flags": ""
+    },
+    {
+      "protocol": "UDP",
+      "src_ip": "150.171.22.12",
+      "dst_ip": "192.168.1.38",
+      "src_port": "443",
+      "dst_port": "65049",
+      "size": 70,
+      "flags": ""
+    },
+    {
+      "protocol": "OTHER",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "224.0.0.252",
+      "src_port": "N/A",
+      "dst_port": "N/A",
+      "size": 46,
+      "flags": ""
+    },
+    {
+      "protocol": "HTTPS",
+      "src_ip": "192.168.1.38",
+      "dst_ip": "149.154.170.100",
+      "src_port": "52148",
+      "dst_port": "443",
+      "size": 228,
+      "flags": ""
+    }
+  ],
+  "captured_at": "2026-04-22 12:30:45",
+  "run_id": "20260422_123045"
+}
